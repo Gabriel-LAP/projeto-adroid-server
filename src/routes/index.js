@@ -6,7 +6,7 @@ import router from "./allRoutes.js";
  * aplicativo Express. */
 const routes = (app) => {
     app.route('/').get((req, res) => {
-        res.status(200).send({ titulo: "Projeto Final" })
+        res.status(200).send({ titulo: "Trabalho Android" })
     })
 
     app.use(

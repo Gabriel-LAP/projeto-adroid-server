@@ -1,5 +1,5 @@
 {
-  "name": "projeto-final-server",
+  "name": "projeto-android-server",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,6 +12,7 @@
     "vite": "^4.4.5"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.0.0",
     "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
